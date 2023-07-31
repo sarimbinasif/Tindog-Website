@@ -1,0 +1,201 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+/* _______________________All Headings______________________*/
+
+.card-title-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.testimonial-text-heading {
+    font-family: 'Caprasimo', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.big-heading,
+.cta-heading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.big-heading {
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.prices-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+
+
+/* __________________download button_________________ */
+.btn {
+    margin-left: 80px;
+}
+
+/* _____________________title image_________________ */
+#mobile-img {
+    transform: rotate(20deg);
+    margin-top: 70px;
+    width: 50%;
+    margin-left: 50px;
+
+}
+
+
+/* _____________________Sections_____________________ */
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+
+
+/* _____________________Navbar_______________________*/
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: "Ubuntu";
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-item {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+#title.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* __________________Features____________________ */
+
+#features {
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+
+    padding: 5%;
+}
+
+
+.icon {
+    margin-bottom: 1rem;
+
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.testimonial-img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 50px;
+
+}
+
+
+/* ____________________Pricing_____________________ */
+
+.pricing-heading {
+    font-family: 'Kanit', sans-serif;
+
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.btn-sign-up {
+
+    text-decoration: none;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+
+}
+
+
+/* ________________Media-Query____________ */
+
+@media(max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+
+    #mobile-img {
+        position: static;
+        transform: none;
+    }
+}
+
+/* ________________Call-to-action______________ */
+
+#cta {
+
+    text-align: center;
+    padding: 7% 15%;
+}
+
+
+
+
+/* ________________Footer______________________ */
+
+#footer {
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
